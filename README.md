@@ -33,11 +33,11 @@ Jum'at 22 Agustus 2025
    remote address : ip publik jawa   
    klik ok  
 
-![m](j1.PNG)
+![m](IMAGES/j1.PNG)
 
 5. jika muncul flag R maka artinya router bali dan jawa sudah terhubung
 
-![m](j2.PNG)
+![m](IMAGES/j2.PNG)
 
 6. lalu kita tambahkan ip address untuk interface ip tunnel bali-jawa    
    pilih menu ip > address   
@@ -45,11 +45,11 @@ Jum'at 22 Agustus 2025
    address : ip yang sudah di berikan router jawa 10.208.10.2  
    network : ip address router jawa 10.208.10.1   
 
-![m](j3.PNG)
+![m](IMAGES/j3.PNG)
 
 7. lalu coba ping ke router jawa
 
-![m](j5.PNG)
+![m](IMAGES/j5.PNG)
 
 8. lalu kita buatkan routing  
    pilih menu ip > routes   
@@ -57,11 +57,11 @@ Jum'at 22 Agustus 2025
    dst.address adalah ip lan dari router jawa  
    gateway : 10.208.10.1  
 
-![m](j4.PNG)
+![m](IMAGES/j4.PNG)
 
 9. kita coba tes di laptop lewat cmd bukti bahwa bisa berkomunikasi 
 
-![m](j6.PNG)
+![m](IMAGES/j6.PNG)
   
 # Pengujian  
 1. Lakukan ping dari Router 1 ke 2 dan sebaliknya  
